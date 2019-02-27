@@ -1,7 +1,7 @@
 /**app.wxss**/
 .container {
   height: 100%;
-  /* display: flex;  /* 不需要使用浮动 */
+  /*display: flex;  /* 不需要使用浮动 */
   /*flex-direction: column; /*纵向布局*/
   /*align-items: center; /*纵向布局*/
   /*justify-content: space-between;

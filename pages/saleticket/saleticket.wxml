@@ -1,0 +1,24 @@
+<!--pages/saleticket/saleticket.wxml-->
+<view>
+    <view class="partTitle">
+      <text class="titlecontent">正在售票</text>
+    </view>
+    <view wx:for="{{movieList}}" wx:key="{{item.id}}" class="movielist">
+    <!-- url="../item/item?id={{item.id}}"    -->
+      <navigator class="listContent">
+        <view class="poster">
+          <image src="{{item.img}}"/>
+        </view>
+        <view class="introduce">
+          <text class='movieName'>{{item.t}}</text>
+          <text class="commonspecial">{{item.commonSpecial}}<text>({{item.year}})</text></text>
+          <text class="director">
+            导演： {{item.dN}}
+          </text>
+        </view>
+        <view class="score">
+          <text>{{item.r}}</text>
+        </view>
+      </navigator>
+    </view>
+</view>

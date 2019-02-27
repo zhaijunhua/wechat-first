@@ -1,6 +1,7 @@
 {
   "pages":[
-    "pages/portal/portal"
+    "pages/portal/portal",
+    "pages/saleticket/saleticket"
   ],
   "window":{
     "backgroundTextStyle":"light",

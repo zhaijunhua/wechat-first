@@ -10,7 +10,40 @@
 .slide-image{
   width: 100%;
 }
-.bigTitle{
+.title{
   display: flex;
   flex-direction: column;
+  padding: 0 23px;
+}
+.title .bigTitle {
+  font-size: 46rpx;
+  margin-top: 20rpx;
+  color: #333;
+}
+.title .smallTitle {
+  font-size: 28rpx;
+  margin-top: 10rpx;
+  color: #666;
+}
+.navMenu {
+  margin-top: 40rpx;
+  padding:0 30rpx;
+  display: column;
+  justify-content: center;
+}
+.navMenu view{
+  border: 16rpx solid #f0f0f0;
+  width: 84%;
+  margin: 0rpx auto 20rpx;
+  padding: 30rpx;
+  background-color: #ccc;
+  font-size: 36rpx;
+  line-height: 60rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navMenu view text {
+  color: #333;
+  font-weight: bold;
 }
