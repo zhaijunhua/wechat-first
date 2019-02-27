@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/portal/portal"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "电影小程序",
+    "navigationBarTextStyle":"white"
+  }
+}

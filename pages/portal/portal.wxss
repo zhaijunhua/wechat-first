@@ -1,0 +1,16 @@
+/* pages/portal/portal.wxss */
+.curso{
+  background-color: #ccc;
+  width: 750rpx;
+  top: 0;
+}
+.swiper {
+  width: 750rpx;
+}
+.slide-image{
+  width: 100%;
+}
+.bigTitle{
+  display: flex;
+  flex-direction: column;
+}
