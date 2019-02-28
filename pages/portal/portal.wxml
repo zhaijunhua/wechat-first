@@ -23,19 +23,23 @@
 
   <!--第一个跳转导航-->
   <view class="navMenu">
-  <navigator url="../saleticket/saleticket?type=Showtime/LocationMovies&name=正在售票">
+  <navigator url="../saleticket/saleticket?type=PageSubArea/HotPlayMovies&name=正在售票">
     <view>
       <text>正在售票</text>
       <text decode="true">&gt;</text>
     </view>
   </navigator>
+  <navigator url="../hot/hot?type=Showtime/LocationMovies&name=正在热映">
     <view>
-      <text>正在热映</text>
-      <text decode="true">&gt;</text>
+        <text>正在热映</text>
+        <text decode="true">&gt;</text>
     </view>
+  </navigator>
+  <navigator url="../upcoming/upcoming?type=Movie/MovieComingNew&name=即将上映">
     <view>
       <text>即将上映</text>
       <text decode="true">&gt;</text>
     </view>
+  </navigator> 
   </view>
 </view>

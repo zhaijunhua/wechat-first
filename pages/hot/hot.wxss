@@ -1,0 +1,65 @@
+/* pages/hot/hot.wxss */
+.partTitle {
+  border: 1rpx solid #eee;
+  width: 750rpx;
+  height: 86rpx;
+  display: flex;
+}
+.partTitle .titlecontent{
+  font-size: 30rpx;
+  font-family: '微软雅黑';
+  color: #999;
+  margin: 20rpx auto;
+}
+.movielist{
+  /*margin-top: 30rpx;*/
+  padding-top: 10rpx;
+  width: 90%;
+  margin:0 auto;
+  padding: 10rpx 0;
+  display: flex;
+  flex-direction: column;
+}
+.listContent{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #eee;
+  justify-content: space-between;
+}
+image{
+  width: 160rpx;
+  height: 212rpx;
+  align-items: center;
+}
+.introduce {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.movieName {
+  font-size: 34rpx;
+}
+.commonspecial {
+  font-size: 24rpx;
+  margin-top: 20rpx;
+}
+.director {
+  font-size: 24rpx;
+
+}
+.score {
+  height: 44rpx;
+  min-width: 44rpx;
+  color: #fff;
+  /* background-color: #FF3030;
+  border-radius: 20rpx; */
+  background-color: #FF3030;
+  border-radius: 36rpx;
+  display: flex;
+}
+.score text {
+  font-size: 22rpx;
+  color: #fff;
+  line-height: 48rpx;
+  margin: 0 auto;
+}

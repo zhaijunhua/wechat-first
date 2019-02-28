@@ -1,27 +1,24 @@
-// pages/saleticket/saleticket.js
+// pages/movieDetial/movieDetial.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    movieList:[]
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    // 接收前一个页面传的值
     console.log(options);
-    const movieurl = 'https://api-m.mtime.cn/' + options.type + '.api?locationId=290';
+    // const _this = this;
+    const movieurl = 'https://ticket-api-m.mtime.cn/' + options.type + '.api?locationId=290&movieId=' + options.movieId;
     const _this = this;
-    wx.showLoading({
-      title: '加载中'
-    })
+    wx.showLoading({});
     wx.request({
-      url: movieurl, // 仅为示例，并非真实的接口地址
-      data: {},
+      url: movieurl,
       header: {
         'content-type': 'json' // 默认值，后面只保留json
       },
@@ -29,9 +26,9 @@ Page({
         console.log(res.data);
         // 将数据赋值
         wx.hideLoading();
-        _this.setData({
-          movieList: res.data.movies
-        });
+        // _this.setData({
+        //   movieList: res.data.movies
+        // });
       },
       fail: function () {
         wx.hideLoading({

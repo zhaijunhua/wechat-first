@@ -1,7 +1,10 @@
 {
   "pages":[
     "pages/portal/portal",
-    "pages/saleticket/saleticket"
+    "pages/saleticket/saleticket",
+    "pages/hot/hot",
+    "pages/upcoming/upcoming",
+    "pages/movieDetial/movieDetial"
   ],
   "window":{
     "backgroundTextStyle":"light",
